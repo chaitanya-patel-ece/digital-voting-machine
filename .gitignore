@@ -1,0 +1,38 @@
+# ============================================================
+# .gitignore — Digital Voting Machine (Vivado Project)
+# ============================================================
+
+# Vivado project files (auto-generated, not needed in repo)
+*.jou
+*.log
+*.str
+*.pb
+
+# Vivado run directories
+.Xil/
+vivado*/
+*.runs/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.srcs/
+
+# Bitstream files (large binary, optional to exclude)
+*.bit
+*.bin
+*.mcs
+
+# Simulation output
+*.vcd
+*.wdb
+*.wcfg
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backup files
+*.bak
+*~
